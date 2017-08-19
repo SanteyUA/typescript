@@ -1,0 +1,22 @@
+{
+  "name": "typescript",
+  "version": "0.0.1",
+  "description": "TS practice",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Oleksandr Kravets",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "github": "^9.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SanteyUA/typescript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SanteyUA/typescript/issues"
+  },
+  "homepage": "https://github.com/SanteyUA/typescript#readme"
+}
