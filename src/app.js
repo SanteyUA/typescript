@@ -1,22 +1,12 @@
-/// <reference path="../lib/phaser.d.ts" />
-var TSGame;
-(function (TSGame_1) {
-    class TSGame extends Phaser.Game {
-        constructor() {
-            super(800, 600, Phaser.AUTO, "game", State);
-        }
-    }
-    class State extends Phaser.State {
-        preload() {
-            console.log("Preload");
-        }
-        create() {
-            console.log("create");
-        }
-        update() {
+/// <reference path="lib/phaser.d.ts" />
+var GameName;
+(function (GameName_1) {
+    class GameName extends Phaser.Game {
+        constructor(width, height) {
+            super(width, height, Phaser.AUTO, "game", Phaser.State);
         }
     }
     window.onload = () => {
-        new TSGame();
+        new GameName(1280, 720);
     };
-})(TSGame || (TSGame = {}));
+})(GameName || (GameName = {}));
