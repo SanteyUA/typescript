@@ -1,4 +1,5 @@
 /// <reference path="lib/phaser.d.ts" />
+/// <reference path="states/Preloader.ts" />
 
 module GameName {
 

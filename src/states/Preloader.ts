@@ -1,8 +1,11 @@
 /// <reference path="../lib/phaser.d.ts" />
+/// <reference path="Boot.ts" />
+/// <reference path="Game.ts" />
+
 
 module GameName {
 	
-	class Preloader extends Phaser.State {
+	export class Preloader extends Phaser.State {
 		
 		preload () {
 			//add assets
